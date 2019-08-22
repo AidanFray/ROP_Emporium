@@ -5,3 +5,4 @@
 *.til
 
 peda-session-*
+.gdb_history

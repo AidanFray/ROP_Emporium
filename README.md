@@ -4,8 +4,8 @@
 | Challenge | 32-bit | 64-bit |
 | :-------: | :----: | :----: |
 | `ret2win` |        |        |
-| `split`   |    X   |        |
-| `callme`  |        |        |
+| `split`   |    X   |   X    |
+| `callme`  |    X   |   X    |
 | `write4`  |        |        |
 | `badchars`|        |        |
 | `fluff`   |        |        |

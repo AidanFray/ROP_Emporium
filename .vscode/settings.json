@@ -5,6 +5,7 @@
         "**/*.id2": true,
         "**/*.nam": true,
         "**/*.til": true,
-        "**/peda-session-*": true
+        "**/peda-session-*": true,
+        "**/.gdb_history": true
     }
 }
