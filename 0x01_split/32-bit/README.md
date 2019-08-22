@@ -33,7 +33,7 @@ Dump of assembler code for function usefulFunction:
 End of assembler dump.
 ```
 
-That provides us with a static address for `system` (0x08048657). We not want to use the `/bin/cat flag.txt` as an argument for `system`.
+That provides us with a static address for `system` (0x08048657). We now want to use the `/bin/cat flag.txt` as an argument for `system` alongside a dud `exit` address.
 
 Our payload will have:
 
@@ -44,4 +44,4 @@ bin_cat addr    p32(0x0804a030)
 exit addr       p32(0x90) [JUNK]
 ```
 
-Running this allows us to create a ROP chain of sorts that exploits the program!
+Running this allows us to create a ROP chain that exploits the program!
