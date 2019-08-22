@@ -20,11 +20,11 @@ We are provided with a function `usefulFunction`:
 
 ```
 Dump of assembler code for function usefulFunction:
-   0x08048649 <+0>:	    push   ebp
-   0x0804864a <+1>:	    mov    ebp,esp
-   0x0804864c <+3>:	    sub    esp,0x8
-   0x0804864f <+6>:	    sub    esp,0xc
-   0x08048652 <+9>:	    push   0x8048747
+   0x08048649 <+0>:	push   ebp
+   0x0804864a <+1>:	mov    ebp,esp
+   0x0804864c <+3>:	sub    esp,0x8
+   0x0804864f <+6>:	sub    esp,0xc
+   0x08048652 <+9>:	push   0x8048747
    0x08048657 <+14>:	call   0x8048430 <system@plt>
    0x0804865c <+19>:	add    esp,0x10
    0x0804865f <+22>:	nop
