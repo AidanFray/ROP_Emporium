@@ -1,0 +1,10 @@
+{
+    "files.exclude": {
+        "**/*.id0": true,
+        "**/*.id1": true,
+        "**/*.id2": true,
+        "**/*.nam": true,
+        "**/*.til": true,
+        "**/peda-session-*": true
+    }
+}
