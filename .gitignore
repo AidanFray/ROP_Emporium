@@ -6,3 +6,4 @@
 
 peda-session-*
 .gdb_history
+__pycache__
