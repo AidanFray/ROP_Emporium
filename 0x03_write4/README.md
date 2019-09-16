@@ -1,8 +1,7 @@
-
 # write4
+Our first foray into proper gadget use. A call to system() is still present but we'll need to write a string into memory somehow.
 
 ## Cord cut
-
 On completing our usual checks for interesting strings and symbols in this binary we're confronted with the stark truth that our favourite string "/bin/cat flag.txt" is not present this time. Although you'll see later that there are other ways around this problem, such as resolving dynamically loaded libraries and using the strings present in those, we'll stick to the challenge goal which is learning how to get data into the target process's virtual address space via the magic of ROP.
 
 ## Read/Write

@@ -3,6 +3,7 @@
 *.id2
 *.nam
 *.til
+*.pyc
 
 peda-session-*
 .gdb_history
