@@ -6,7 +6,7 @@
 | `ret2win` |        |        |
 | `split`   |    X   |   X    |
 | `callme`  |    X   |   X    |
-| `write4`  |        |        |
+| `write4`  |    X   |   X    |
 | `badchars`|        |        |
 | `fluff`   |        |        |
 | `pivot`   |        |        |

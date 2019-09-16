@@ -7,3 +7,5 @@
 peda-session-*
 .gdb_history
 __pycache__
+./.vscode
+*/core
