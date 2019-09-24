@@ -1,3 +1,4 @@
+
 *.id0
 *.id1
 *.id2
@@ -8,5 +9,7 @@
 peda-session-*
 .gdb_history
 __pycache__
-./.vscode
-*/core
+.vscode
+
+*/32-bit/core
+*/64-bit/core

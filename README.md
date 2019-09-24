@@ -3,11 +3,11 @@
 
 | Challenge | 32-bit | 64-bit |
 | :-------: | :----: | :----: |
-| `ret2win` |        |        |
+| `ret2win` |    X   |   X    |
 | `split`   |    X   |   X    |
 | `callme`  |    X   |   X    |
 | `write4`  |    X   |   X    |
-| `badchars`|        |        |
+| `badchars`|    X   |   X    |
 | `fluff`   |        |        |
 | `pivot`   |        |        |
 | `ret2csu` |        |        |
