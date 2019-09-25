@@ -9,6 +9,6 @@
 | `write4`  |    X   |    X   |
 | `badchars`|    X   |    X   |
 | `fluff`   |    X   |    X   |
-| `pivot`   |        |        |
+| `pivot`   |    X   |    X   |
 | `ret2csu` |        |        |
 
