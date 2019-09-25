@@ -1,6 +1,6 @@
 # badchars - 64bit
 
-The concept of exploitation is very similar except the consideration of calling convention.
+The concept of exploitation is very similar to the [32-bit exploit](../32-bit/README.md) except the consideration of calling convention.
 
 Gadgets for writing data:
 ```
@@ -19,7 +19,7 @@ Calling system with the correct address:
 pop rdi ; ret
 ```
 
-64-bit actually makes it easier to write the command string into memory as it can be done in one chain.
+The 64-bit architecture makes it easier to write the command string into memory as it can be done in one chain.
 
 One aspect to note in 64-bit exploits the start of the `.data` section will normally be written to or altered. Therefore, using data a little further into the `.data` section is advised.
 

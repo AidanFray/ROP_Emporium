@@ -154,7 +154,7 @@ Position `0x600e48` has a pointer (`0x00000000004008b4`) to the method `_fini`. 
 
 We need to, therefore, make sure that `rbx` and `rbp` are equal. Means starting `rbp` as `0x1` and `rbx` as `0x0`.
 
-The final issues is a `add rsp, 0x8` command. This will move the stack down eight values and, thus, padding will be required to keep the exploit on track.
+The final issue is a `add rsp, 0x8` command. This will move the stack down eight values and, thus, padding will be required to keep the exploit on track.
 
 In summary:
 

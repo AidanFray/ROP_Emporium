@@ -6,7 +6,7 @@ To find its memory location:
 
 Run `gdb` and break at `main` (`b main`).
 
-Then once the breakpoint has hit run `find <STRING>`. This will display all string locations with `<STRING>` in them.
+Then once the breakpoint has hit, run `find <STRING>`. This will display all string locations with `<STRING>` in them.
 
 ```
 gdb-peda$ find /bin/cat

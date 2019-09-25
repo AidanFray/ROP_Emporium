@@ -2,7 +2,7 @@
 
 Again, the 64-bit version is very similar to the [32-bit exploit](../32-bit/README.md)
 
-In the same way we will require gadgets to put the parameters in the correct places.
+In the same way, we will require gadgets to put the parameters in the correct places.
 
 Luckily we also have the same combined gadget:
 

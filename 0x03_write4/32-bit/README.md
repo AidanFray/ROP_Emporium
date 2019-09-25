@@ -4,7 +4,7 @@
 
 This challenge involves us using gadgets to write data onto the stack.
 
-Checking areas we can write to can be achived with this command:
+Checking areas we can write to can be achieved with this command:
 ```
 $ readelf --sections write432
 
@@ -50,7 +50,7 @@ Key to Flags:
   p (processor specific)
 ```
 
-Looking through this for an area gives us the best candiate:
+Looking through this for an area gives us the best candidate:
 
 ```
 [25] .data             PROGBITS        0804a028 001028 000008 00  WA  0   0  4
@@ -65,7 +65,7 @@ Hex dump of section '.data':
   0x0804a028 00000000 00000000                   ........
 ```
 
-Nothing currently resides in `.data`. This, therefore, makes it the perfect candiate for out date injection.
+Nothing currently resides in `.data`. This, therefore, makes it the perfect candidate for out date injection.
 
 The next step is to look for some gadgets to move data into this memory address. We are looking for a `mov [<REG>], [REG]` gadget that will allow us
 to move data into an address of our choice.

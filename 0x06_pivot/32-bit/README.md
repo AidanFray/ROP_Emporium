@@ -1,6 +1,6 @@
 # pivot - 32bit
 
-Pivot is a challenge that requires a new technique due to limited stack space. We only have for about ROP elements. This means we have to pivot to another chain to achieve anything purposeful.
+Pivot is a challenge that requires a new technique due to limited stack space. We only have space for about three ROP elements. This means we have to pivot to another chain to achieve anything purposeful.
 
 Our overall aim is to call the `ret2win` function imported from the companying library.
 

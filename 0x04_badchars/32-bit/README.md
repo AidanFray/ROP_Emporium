@@ -10,7 +10,7 @@ badchars are: b i c / <space> f n s
 > 
 ```
 
-So, in this case we cannot just place `/bin/sh` into memory and call it as the characters will be muddled.
+So, in this case, we cannot just place `/bin/sh` into memory and call it as the characters will be muddled.
 
 Note: `ropper` has a mode to return gadgets that do not contain the specified bad characters:
 
@@ -70,7 +70,7 @@ mov dword ptr [edi], esi
 ret
 ```
 
-Will write four bytes of a string into memory, this need to repeated twice for each 4 byte chunk of the string.
+Will write four bytes of a string into memory, this needs to repeated twice for each 4-byte chunk of the string.
 
 Now, we need to alter the data on the stack to recreate the `/bin/sh\x00` string.
 

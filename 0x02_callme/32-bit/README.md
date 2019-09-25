@@ -14,7 +14,7 @@ ROPGadget shows us the perfect gadget:
 0x080488a9 : pop esi ; pop edi ; pop ebp ; ret
 ```
 
-This will place the parameters in the correctly place.
+This will place the parameters in the correct place.
 
 This gives us a structure per call like so:
 

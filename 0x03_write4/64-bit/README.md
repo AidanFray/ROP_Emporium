@@ -1,6 +1,6 @@
 # write4 - 64bit
 
-Once again, the 64bit version is the same concept to that of the 32bit exploit.
+Once again, the 64bit version is the same concept as the [32bit exploit](../32-bit/README.md).
 
 Searching for the same format gives us the gadgets below:
 ```
@@ -8,7 +8,7 @@ Searching for the same format gives us the gadgets below:
 0x0000000000400820 : mov qword ptr [r14], r15 ; ret
 ```
 
-These will allow us to load a string into memory. Due to the 8 bit size of 64-bit pointers we can load "/bin/sh" into memory with a single call.
+These will allow us to load a string into memory. Due to the 8 bit size of 64-bit pointers, we can load "/bin/sh" into memory with a single call.
 
 As with the `32-bit` version the data is being written to `.data` section.
 

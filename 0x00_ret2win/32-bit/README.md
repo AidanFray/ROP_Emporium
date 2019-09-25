@@ -1,10 +1,10 @@
 # ret2win - 32bit
 
-This challenge just involve a very simple overwritting of the return pointer to a function of our choice.
+This challenge just involves a very simple overwriting of the return pointer to a function of our choice.
 
 After looking inside the binary a function called `ret2win` that will print us our flag.
 
-All we have to do is find the vulnerable buffer len and place the address of `ret2win` to exploit the binary.
+All we have to do is find the vulnerable buffer length and insert the address of `ret2win` into the instruction pointer to exploit the binary.
 
 Using `gdb` we can use the `pattern` functionality to find the buffer len:
 

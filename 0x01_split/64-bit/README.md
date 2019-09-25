@@ -13,7 +13,7 @@ The order of the registers can be seen below:
 +---------+------+------+------+------+------+------+
 ```
 
-Finding the gadget can be achived via `ROPgadget`
+Finding the gadget can be achieved via `ROPgadget`
 
 Running:
 
