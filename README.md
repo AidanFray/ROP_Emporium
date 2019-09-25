@@ -10,5 +10,5 @@
 | `badchars`|    X   |    X   |
 | `fluff`   |    X   |    X   |
 | `pivot`   |    X   |    X   |
-| `ret2csu` |        |        |
+| `ret2csu` |    -   |    X   |
 
